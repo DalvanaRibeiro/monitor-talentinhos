@@ -1,0 +1,92 @@
+body {
+    font-family: 'Orbitron', sans-serif;
+    /* Define a fonte moderna e tecnológica */
+    background-color: #121212;
+    /* Cor de fundo escura */
+    color: #f0f0f0;
+    /* Cor do texto clara */
+    margin: 0;
+    /* Remove margens padrão */
+    padding: 20px;
+    /* Adiciona um pouco de espaço ao redor do conteúdo */
+}
+
+.dashboard {
+    max-width: 1200px;
+    /* Limita a largura do dashboard */
+    margin: auto;
+    /* Centraliza o dashboard */
+    background-color: #1e1e1e;
+    /* Cor de fundo dos cartões escuros */
+    border-radius: 8px;
+    /* Bordas arredondadas */
+    box-shadow: 0 4px 20px rgba(0, 0, 0, 0.5);
+    /* Sombra mais pronunciada */
+    padding: 20px;
+    /* Espaçamento interno do dashboard */
+}
+
+h1 {
+    text-align: center;
+    /* Centraliza o título principal */
+    color: #4CAF50;
+    /* Cor verde para o título */
+    font-size: 2.5em;
+    /* Aumenta o tamanho da fonte do título */
+    letter-spacing: 2px;
+    /* Aumenta o espaço entre as letras */
+}
+
+.teams-container {
+    display: flex;
+    /* Define o layout como flexível */
+    flex-wrap: wrap;
+    /* Permite que os cartões se movam para a próxima linha */
+    gap: 20px;
+    /* Espaçamento entre os cartões */
+}
+
+.team-card {
+    background-color: #2a2a2a;
+    /* Cor de fundo dos cartões */
+    border: 1px solid #4CAF50;
+    /* Borda verde dos cartões */
+    border-radius: 8px;
+    /* Bordas arredondadas dos cartões */
+    padding: 20px;
+    /* Espaçamento interno dos cartões */
+    flex: 1 1 220px;
+    /* Permite que os cartões se expandam e encolham */
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.3);
+    /* Sombra suave dos cartões */
+}
+
+.team-card h2 {
+    color: #4CAF50;
+    /* Cor verde do texto dos títulos das equipes */
+    font-size: 1.8em;
+    /* Aumenta o tamanho da fonte dos títulos */
+}
+
+ul {
+    list-style-type: none;
+    /* Remove os marcadores da lista */
+    padding-left: 0;
+    /* Remove o preenchimento à esquerda da lista */
+}
+
+li {
+    margin: 5px 0;
+    /* Espaçamento entre os itens da lista */
+}
+
+.status-icon {
+    width: 70px;
+    /* Largura do GIF */
+    height: 50px;
+    /* Altura do GIF */
+    vertical-align: middle;
+    /* Alinha verticalmente o GIF com o texto */
+    margin-left: 5px;
+    /* Espaço entre o texto e o GIF */
+}
